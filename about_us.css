@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+}
+
+#about_us {
+    font-family: 'Poppins';
+    background-color: #0E0E0E;
+    color: #C6B394;
+}
+
+#about_us_wide {
+    display: block;
+    background-image: url('images/Vector2.png');
+    background-repeat: no-repeat;
+    background-size: 43% 89%;
+    background-position: 0% 7vw;
+}
+
+#about-heading {
+    padding: 7vw 12vw 5vw 12vw;
+    width: auto;
+    height: fit-content;
+    background-image: url('images/Vector3.png');
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: contain;
+}
+
+#images-inline {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    padding-left: 8vw;
+    padding-right: 4wv;
+}
+
+#about-us-mobile {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    #about_us_wide {
+        display: none;
+    }
+
+    #about-us-mobile {
+        display: block;
+        background-image: url('images/Vector3.png');
+        background-repeat: no-repeat;
+        background-size: 20%;
+        background-position: 99% 6%;
+    }
+
+    #about-heading {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: 90% 130%;
+    }
+}
