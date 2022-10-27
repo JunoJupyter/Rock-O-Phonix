@@ -17,6 +17,7 @@
 }
 
 #about-heading {
+    font-size: 2vw;
     padding: 7vw 12vw 5vw 12vw;
     width: auto;
     height: fit-content;
@@ -24,6 +25,17 @@
     background-repeat: no-repeat;
     background-position: 99%;
     background-size: contain;
+}
+
+#about-main-heading {
+    border-left: 0.8vw solid #711011; 
+    padding-left: 2.8%; 
+    margin-bottom: 5%;
+}
+
+#about-details {
+    text-align: center; 
+    font-size: 1.5vw;
 }
 
 #images-inline {
@@ -39,6 +51,11 @@
 }
 
 @media (max-width: 760px) {
+
+    #about-heading {
+        font-size: 2.7vw;
+    }
+
     #about_us_wide {
         display: none;
     }
