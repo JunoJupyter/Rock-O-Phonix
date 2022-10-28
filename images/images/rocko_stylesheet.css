@@ -1,0 +1,175 @@
+html , body{
+    margin: 0px;
+}
+/* .skull{
+    position: absolute;
+     left: 3.7vw;
+}
+.alcher_logo{
+    position: absolute;
+
+    right:3.7vw;
+} */
+.top_part{
+    position: relative;
+    height: 100vh;
+ 
+    background-image:url("Rock-O-Phonix/images/image 9.svg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+@media (max-width: 600px){
+    .top_part{
+    background-image:url("Rock-O-Phonix/images/bakcground.jpg")  ;
+    background-size: contain;
+
+    }
+}
+.nav_bar_grid{
+    height: 13vh;
+    font-size: 1.5vw;
+
+    align-items: center;
+display: flex;
+width:100vw;
+justify-content: space-evenly;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.nav_bar_text{
+    color: rgba(198, 179, 148, 1);
+    font-family: Poppins , sans-serif;
+    font-size: 130%;
+   
+
+}
+.height{
+    width: 100vw;
+    height: 100vh;
+}
+
+.event_name{
+ display: flex;
+justify-content: center;
+align-items: baseline;
+ /* padding-bottom: 20%; */
+ height: 100vh;
+ width: 100vw;
+ padding-top: 73vh;
+ padding-left: 2vw;
+ padding-right: 2vw;
+ box-sizing: border-box;
+}
+.event_name svg {
+    width: 100vw; 
+}
+
+
+
+.piano{
+    position: relative;
+
+}
+
+@media (max-width: 800px){
+    .nav_bar_grid{
+        font-size: 1.85vw;
+    }
+    #piano{
+        display: none;
+    }
+    .piano  svg{
+        display: none;
+    }
+}
+@media (max-width: 1000px){
+    .nav_bar_grid{
+        font-size: 1.7vw;
+    }
+}
+@media (max-width: 700px){
+    .nav_bar_grid{
+        font-size: 2vw;
+    }
+ 
+}
+
+
+/* about_us */
+
+#about_us {
+    font-family: 'Poppins';
+    background-color: #0E0E0E;
+    color: #C6B394;
+}
+
+#about_us_wide {
+    display: block;
+    background-image: url('images/Vector2.png');
+    background-repeat: no-repeat;
+    background-size: 43% 89%;
+    background-position: 0% 7vw;
+}
+
+#about-heading {
+    font-size: 2vw;
+    padding: 7vw 12vw 5vw 12vw;
+    width: auto;
+    height: fit-content;
+    background-image: url('images/Vector3.png');
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: contain;
+}
+
+#about-main-heading {
+    border-left: 0.8vw solid #711011; 
+    padding-left: 2.8%; 
+    margin-bottom: 5%;
+}
+
+#about-details {
+    text-align: center; 
+    font-size: 1.5vw;
+}
+
+#images-inline {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    padding-left: 8vw;
+    padding-right: 4wv;
+}
+
+#about-us-mobile {
+    display: none;
+}
+
+@media (max-width: 760px) {
+
+    #about-heading {
+        font-size: 2.7vw;
+    }
+
+    #about_us_wide {
+        display: none;
+    }
+
+    #about-us-mobile {
+        display: block;
+        background-image: url('images/Vector3.png');
+        background-repeat: no-repeat;
+        background-size: 20%;
+        background-position: 99% 6%;
+    }
+
+    #about-heading {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: 90% 130%;
+    }
+}
