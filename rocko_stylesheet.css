@@ -30,6 +30,7 @@ html , body{
     background-image:url("images/background-mob.png")  ;
   overflow-y: hidden;
 background-size: 101vw;
+
 height: 130vh;
 background-color: #0E0E0E;
 
@@ -49,13 +50,10 @@ background-color: #0E0E0E;
 
 }
 .ROCKO-MOBILE{
-      margin-top: -10vh;
+      margin-top: -8vh;
     background-color: #0E0E0E;
     scroll-behavior: auto;
-    background-image: url('images/left-skull.png');
-    background-repeat: no-repeat;
- 
-    background-size: 100px;
+    
 }
 /* .margin-rocko{
 margin-top: -2.5vh;
@@ -67,7 +65,12 @@ margin-top: -2.5vh;
     align-items: center;
     height: 80vh;
     background-color: #0E0E0E;
-
+    background-image: url('images/left-skull.png');
+    background-position-x:right ;
+background-position-y:top;
+    background-repeat: no-repeat;
+ 
+    background-size: 160px;
     /* justify-content: space-evenly; */
     margin-top: -2.5vh;
     
