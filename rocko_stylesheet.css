@@ -29,24 +29,33 @@ html , body{
     .top_part{
     background-image:url("images/background-mob.png")  ;
   overflow-y: hidden;
-background-size: 84vh;
-height: 146vh;
+background-size: 101vw;
+height: 130vh;
+background-color: #0E0E0E;
 
     }
+
 .event_name{
- padding-top: 0vh;
-}
+    display: flex;
+   justify-content: center;
+   align-items: baseline;
+    /* padding-bottom: 20%; */
+
+    /* padding-top: 80vh; */
+    
+   
+    box-sizing: border-box;
+   }
 
 }
 .ROCKO-MOBILE{
-      margin-top: -19vh;
+      margin-top: -10vh;
     background-color: #0E0E0E;
     scroll-behavior: auto;
     background-image: url('images/left-skull.png');
     background-repeat: no-repeat;
-    background-position:right ;
-    position:absolute ;
-    background-size: 200px;
+ 
+    background-size: 100px;
 }
 /* .margin-rocko{
 margin-top: -2.5vh;
@@ -57,13 +66,17 @@ margin-top: -2.5vh;
     flex-direction: column;
     align-items: center;
     height: 80vh;
-    justify-content: space-evenly;
+    background-color: #0E0E0E;
+
+    /* justify-content: space-evenly; */
+    margin-top: -2.5vh;
+    
 }
 .align12{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 7vh;
 }
 .links2{
     height: 13vh;
