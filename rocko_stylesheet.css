@@ -26,32 +26,30 @@ html , body{
 }
 @media (max-width: 650px){
     .top_part{
-    background-image:url("images/bakcground.jpg")  ;
+    background-image:url("images/background-mob.png")  ;
   overflow-y: hidden;
-background-size: 80vh;
-height: 180vh;
+background-size: 100vh;
+height: 160vh;
     }
     .ROCKO-MOBILE{
-        height: 100vh;
+        height: 80vh;
         background-color: #0E0E0E;
         scroll-behavior: auto;
-        background-image: url("images/left-skull.png");
+        background-image: url('images/left-skull.png');
         background-repeat: no-repeat;
-        background-position:right;
+        background-position:right ;
         
         background-size: 315px;
     }
 
 }
 .margin-rocko{
-margin-top: -1vh;
-margin-bottom: 5vh;
+margin-top: -2.5vh;
+margin-bottom: 20vh;
 }
 .align1{
     display: flex;
     flex-direction: column;
-    
-    
     align-items: center;
 }
 
@@ -70,7 +68,7 @@ justify-content: space-evenly;
 .nav_bar_text{
     color: rgba(198, 179, 148, 1);
     font-family: Poppins , sans-serif;
-    font-size: 130%;
+    font-size: 1.5vw;
    
 
 }
@@ -95,8 +93,23 @@ align-items: baseline;
     width: 100vw; 
 }
 
+.register-button{
+    justify-content: center;
+    color: rgba(198, 179, 148, 1);
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
 
 
+}
+.button-1{
+    width: 35vw;
+    height: 40px;
+    background-color: #0E0E0E;
+    border:2px solid #C6B394;
+}
 .piano{
     position: relative;
 

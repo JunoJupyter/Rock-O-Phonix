@@ -146,7 +146,7 @@ padding-left: 1.5rem;
 .links {
 height: 0;
 overflow: hidden;
-transition:all 2s linear
+transition:all 0.8s linear
 }
 .show-links {
 height: 15rem;
