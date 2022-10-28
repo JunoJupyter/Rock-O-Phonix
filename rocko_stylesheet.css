@@ -14,7 +14,7 @@ html , body{
     position: relative;
     height: 100vh;
  
-    background-image:url("Rock-O-Phonix/images/image 9.svg")  ;
+    background-image:url("images/image 9.svg")  ;
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -23,7 +23,7 @@ html , body{
 }
 @media (max-width: 600px){
     .top_part{
-    background-image:url("Rock-O-Phonix/images/bakcground.jpg")  ;
+    background-image:url("images/bakcground.jpg")  ;
     background-size: contain;
 
     }
