@@ -1,15 +1,18 @@
 html , body{
     margin: 0px;
 }
-/* .skull{
+.skull{
     position: absolute;
-     left: 3.7vw;
+     left: 3.6vw;
+    top:3vh;
+
 }
 .alcher_logo{
     position: absolute;
 
-    right:3.7vw;
-} */
+    right: 3.6vw;
+    top:3vh;
+}
 .top_part{
     position: relative;
     height: 100vh;
@@ -24,14 +27,15 @@ html , body{
 @media (max-width: 600px){
     .top_part{
     background-image:url("images/bakcground.jpg")  ;
-    background-size: contain;
+    background-size: cover;
 
     }
 }
 .nav_bar_grid{
     height: 13vh;
     font-size: 1.5vw;
-
+padding-left: 10vw;
+padding-right: 10vw;
     align-items: center;
 display: flex;
 width:100vw;
@@ -74,7 +78,21 @@ align-items: baseline;
     position: relative;
 
 }
-
+@media (min-width: 650px){
+    .ROCKO-MOBILE{
+        display: none;
+    }
+    }
+    @media (max-width: 650px){
+    
+    .ROCKO{
+        display: none ;
+    
+     }
+     .event_name{
+        display: none;
+     }
+    }
 @media (max-width: 800px){
     .nav_bar_grid{
         font-size: 1.85vw;
