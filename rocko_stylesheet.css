@@ -24,14 +24,38 @@ html , body{
     /* overflow-y: hidden; */
     overflow-x: hidden;
 }
-@media (max-width: 600px){
+@media (max-width: 650px){
     .top_part{
     background-image:url("images/bakcground.jpg")  ;
-    background-size: cover;
-
+  overflow-y: hidden;
+background-size: 80vh;
+height: 180vh;
     }
+    .ROCKO-MOBILE{
+        height: 100vh;
+        background-color: #0E0E0E;
+        scroll-behavior: auto;
+        background-image: url("images/left-skull.png");
+        background-repeat: no-repeat;
+        background-position:right;
+        
+        background-size: 315px;
+    }
+
 }
-.nav_bar_grid{
+.margin-rocko{
+margin-top: -1vh;
+margin-bottom: 5vh;
+}
+.align1{
+    display: flex;
+    flex-direction: column;
+    
+    
+    align-items: center;
+}
+
+.links2{
     height: 13vh;
     font-size: 1.5vw;
 padding-left: 10vw;
@@ -43,7 +67,6 @@ justify-content: space-evenly;
     box-sizing: border-box;
     position: fixed;
 }
-
 .nav_bar_text{
     color: rgba(198, 179, 148, 1);
     font-family: Poppins , sans-serif;
@@ -78,31 +101,12 @@ align-items: baseline;
     position: relative;
 
 }
-@media (min-width: 650px){
-    .ROCKO-MOBILE{
-        display: none;
-    }
-    }
-    @media (max-width: 650px){
-    
-    .ROCKO{
-        display: none ;
-    
-     }
-     .event_name{
-        display: none;
-     }
-    }
+
 @media (max-width: 800px){
     .nav_bar_grid{
         font-size: 1.85vw;
     }
-    #piano{
-        display: none;
-    }
-    .piano  svg{
-        display: none;
-    }
+
 }
 @media (max-width: 1000px){
     .nav_bar_grid{

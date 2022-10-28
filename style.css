@@ -183,6 +183,7 @@ background: transparent;
     .nav_mob_view{
         display: none;
     }
+
     }
     @media (max-width: 650px){
     
@@ -190,7 +191,24 @@ background: transparent;
         display: none ;
     
      }
-     .event_name{
-        display: none;
-     }
+   
     }
+    @media (min-width: 870px){
+      
+        
+        .ROCKO-MOBILE{
+            display: none;
+        }
+        }
+        @media (max-width: 870px){
+        
+         .ROCKO{
+            display: none;
+         }
+         #piano{
+            display: none;
+        }
+        .piano  svg{
+            display: none;
+        }
+        }
