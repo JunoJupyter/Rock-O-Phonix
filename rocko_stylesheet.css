@@ -41,7 +41,7 @@ html , body{
 }
 
 .ROCKO-MOBILE{
-      margin-top: -16vh;
+      margin-top: -18vh;
     background-color: #0E0E0E;
     scroll-behavior: auto;
     display: flex;
@@ -85,7 +85,7 @@ align-items: baseline;
  /* padding-bottom: 20%; */
  height: 100vh;
  width: 100vw;
- padding-top: 73vh;
+ padding-top: 77vh;
  padding-left: 2vw;
  padding-right: 2vw;
  box-sizing: border-box;
@@ -120,7 +120,7 @@ line-height: 24px;
 .right-skull{
     position: absolute;
 
-    bottom: 30%;
+    bottom: 26%;
 }
 .right-skull img{
     width: 125px;
@@ -149,7 +149,7 @@ background-color: #0E0E0E;
     /* padding-bottom: 20%; */
     height: 100vh;
     width: 100vw;
-    padding-top: 60vh;
+    padding-top: 70vh;
     padding-left: 5vw;
     padding-right: 5vw;
     
@@ -212,7 +212,14 @@ background-position-y:bottom;
   }
 
 }
-
+@media (min-width:1600px) {
+    .event_name{
+        display: flex;
+     
+        padding-top: 84vh;
+     
+       }    
+}
 
 /* about_us */
 
