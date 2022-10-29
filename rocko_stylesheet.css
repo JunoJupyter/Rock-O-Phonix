@@ -5,13 +5,28 @@ html , body{
     position: absolute;
      left: 3.6vw;
     top:3vh;
+    height: 5vh;
+    width: 2vw;
+
+}
+.skull img{
+ 
+    height: 10vh;
+    width: 7vw;
+
+}
+.alcher_logo img{
+ 
+    height: 6vh;
+    width: 3vw;
 
 }
 .alcher_logo{
     position: absolute;
-
+    height: 5vh;
+    width: 2vw;
     right: 3.6vw;
-    top:3.2vh;
+    top:4.2vh;
 }
 .top_part{
     position: relative;
@@ -29,9 +44,9 @@ html , body{
     .top_part{
     background-image:url("images/background-mob.png")  ;
   overflow-y: hidden;
-background-size: 101vw;
+background-size: 90vw;
 
-height: 130vh;
+height: 120vh;
 background-color: #0E0E0E;
 
     }
@@ -50,10 +65,11 @@ background-color: #0E0E0E;
 
 }
 .ROCKO-MOBILE{
-      margin-top: -8vh;
+      margin-top: -16vh;
     background-color: #0E0E0E;
     scroll-behavior: auto;
-    
+    display: flex;
+    align-items: center;
 }
 /* .margin-rocko{
 margin-top: -2.5vh;
@@ -63,7 +79,7 @@ margin-top: -2.5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     background-color: #0E0E0E;
     background-image: url('images/left-skull.png');
     background-position-x:right ;
@@ -112,13 +128,14 @@ align-items: baseline;
  /* padding-bottom: 20%; */
  height: 100vh;
  width: 100vw;
- padding-top: 73vh;
+ padding-top: 60vh;
  padding-left: 2vw;
  padding-right: 2vw;
  box-sizing: border-box;
 }
 .event_name svg {
     width: 100vw; 
+
 }
 
 .register-button{
@@ -133,8 +150,8 @@ line-height: 24px;
 
 }
 .button-1{
-    width: 35vw;
-    height: 40px;
+    width: 40vw;
+    height: 5vh;
     background-color: #0E0E0E;
     border:2px solid #C6B394;
 }

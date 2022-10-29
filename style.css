@@ -107,6 +107,7 @@ display: flex;
 align-items: right;
 justify-content: space-between;
 padding: 1rem;
+padding-right: 0px;
 }
 .nav-toggle {
     font-size: 3vw;
