@@ -193,14 +193,14 @@ background: transparent;
      }
    
     }
-    @media (min-width: 870px){
+    @media (min-width: 650px){
       
         
         .ROCKO-MOBILE{
             display: none;
         }
         }
-        @media (max-width: 870px){
+        @media (max-width: 650px){
         
          .ROCKO{
             display: none;
@@ -212,3 +212,4 @@ background: transparent;
             display: none;
         }
         }
+     
