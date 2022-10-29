@@ -32,61 +32,14 @@ html , body{
     position: relative;
     height: 100vh;
  
-    background-image:url("images/image 9.svg")  ;
+    background-image:url("images/image 9.png")  ;
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     /* overflow-y: hidden; */
     overflow-x: hidden;
 }
-@media (max-width: 650px){
-    
-    .top_part{
-    background-image:url("images/background-mob.png")  ;
-  overflow-y: hidden;
-background-size: 90vw;
 
-height: 130vh;
-background-color: #0E0E0E;
-
-    }
-.center-flex{
-   padding-left: 7vw;
-   padding-right: 7vw;
-   width: 100vw;
-}
-.event_name{
-    display: flex;
-   justify-content: center;
-   align-items: baseline;
-    /* padding-bottom: 20%; */
-    height: 100vh;
-    width: 100vw;
-    padding-top: 60vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    
-     box-sizing: border-box;
-   }
-
-   .align1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    justify-items: center;
-    background-color: #0E0E0E;
-    background-image: url('images/left-skull.png');
-    background-position-x:right ;
-background-position-y:top;
-    background-repeat: no-repeat;
- 
-    background-size: 160px;
-    /* justify-content: space-evenly; */
-    margin-top: -2.5vh;
-    
-}
-}
 .ROCKO-MOBILE{
       margin-top: -16vh;
     background-color: #0E0E0E;
@@ -94,10 +47,6 @@ background-position-y:top;
     display: flex;
     align-items: center;
 }
-/* .margin-rocko{
-margin-top: -2.5vh;
-
-} */
 
 .align12{
     display: flex;
@@ -168,7 +117,63 @@ line-height: 24px;
     background-color: #0E0E0E;
 
 }
+.right-skull{
+    position: absolute;
 
+    bottom: 30%;
+}
+.right-skull img{
+    width: 125px;
+    height: 200px;
+}
+@media (max-width: 650px){
+    
+    .top_part{
+    background-image:url("images/background-mob.png")  ;
+  overflow-y: hidden;
+background-size: 90vw;
+
+height: 120vh;
+background-color: #0E0E0E;
+
+    }
+.center-flex{
+   padding-left: 7vw;
+   padding-right: 7vw;
+   width: 100vw;
+}
+.event_name{
+    display: flex;
+   justify-content: center;
+   align-items: baseline;
+    /* padding-bottom: 20%; */
+    height: 100vh;
+    width: 100vw;
+    padding-top: 60vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+     box-sizing: border-box;
+   }
+
+   .align1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-items: center;
+    background-color: #0E0E0E;
+    background-image: url('images/left-skull.png');
+    background-position-x:right ;
+background-position-y:bottom;
+    background-repeat: no-repeat;
+ 
+    background-size: 160px;
+    /* justify-content: space-evenly; */
+    margin-top: -2.5vh;
+    
+}
+}
 @media (max-width: 800px){
     .nav_bar_grid{
         font-size: 1.85vw;
@@ -186,6 +191,10 @@ line-height: 24px;
     .nav_bar_grid{
         font-size: 1.7vw;
     }
+    .skull img{
+        height: 10vh;
+        width: 12vw;
+      }
 }
 @media (max-width: 700px){
     .nav_bar_grid{
@@ -194,11 +203,13 @@ line-height: 24px;
     .skull{
      
         left: 3vw;
- height: 8vh;
- width: 8vw;
+
    
    }
-  
+  .skull img{
+    height: 8vh;
+    width: 10vw;
+  }
 
 }
 
