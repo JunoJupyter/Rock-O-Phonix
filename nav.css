@@ -107,6 +107,7 @@ display: flex;
 align-items: right;
 justify-content: space-between;
 padding: 1rem;
+padding-right: 0px;
 }
 .nav-toggle {
     font-size: 3vw;
@@ -192,14 +193,14 @@ background: transparent;
      }
    
     }
-    @media (min-width: 870px){
+    @media (min-width: 650px){
       
         
         .ROCKO-MOBILE{
             display: none;
         }
         }
-        @media (max-width: 870px){
+        @media (max-width: 650px){
         
          .ROCKO{
             display: none;
@@ -211,3 +212,4 @@ background: transparent;
             display: none;
         }
         }
+     
