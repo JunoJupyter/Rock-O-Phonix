@@ -9,6 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
 </head>
 <style>
     /* svg styles */
@@ -47,10 +54,12 @@
             fill: rgb(95, 92, 92);
         }
     }
+
     .fa-bars {
-  margin: 35px;
-  font-size: 30px;
-}
+        margin: 35px;
+        font-size: 30px;
+    }
+
     .bar {
         transition: all 0.3s linear;
     }
@@ -69,31 +78,31 @@
 
 <body>
     <div class="top_part">
-        <div class="nav_bar_grid" >
+        <div class="nav_bar_grid">
             <div class="skull">
                 <img src="images/nav_bar_skull.png">
             </div>
             <div class="links2">
-            <div class="nav_bar_text">
-                <a>Home</a>
+                <div class="nav_bar_text">
+                    <a>Home</a>
+                </div>
+                <div class="nav_bar_text">
+                    <a>Registration</a>
+                </div>
+                <div class="nav_bar_text">
+                    <a>About us</a>
+                </div>
+                <div class="nav_bar_text">
+                    <a>Contact Us</a>
+                </div>
             </div>
-            <div class="nav_bar_text">
-                <a>Registration</a>
-            </div>
-            <div class="nav_bar_text">
-                <a>About us</a>
-            </div>
-            <div class="nav_bar_text">
-                <a>Contact Us</a>
-            </div>
-        </div>
-            <div class="alcher_logo" >
+            <div class="alcher_logo">
                 <img src="images/alcher_logo.png">
             </div>
         </div>
         <div class="nav_mob_view" style="padding-top:1vh; padding-bottom:1vh; padding-left: 2vw; padding-right: 2vw; ">
             <div class="nav-header">
-                <img src="images/nav_bar_skull.png"  alt="" class="logo" alt="logo" />
+                <img src="images/nav_bar_skull.png" alt="" class="logo" alt="logo" />
                 <button class="nav-toggle">
                     <i class="fas fa-bars "></i>
                 </button>
@@ -168,47 +177,68 @@
                     </g>
                 </svg>
             </div>
-            <div class="ROCKO-MOBILE" id="Rocko-mob" >
+            <div class="ROCKO-MOBILE" id="Rocko-mob">
                 <div class="align1">
-                    <div ><svg  height="300" width="250"viewBox="0 0 220 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g class="rock ">
-                        <path d="M16.6478 179.359H7.85352V123.275H21.123C24.9065 123.275 27.9981 124.398 30.3949 126.641C33.0581 129.098 34.3926 132.568 34.3926 137.056V143.146C34.3926 147.686 33.061 151.185 30.3949 153.642C28.0502 155.833 24.9586 156.927 21.123 156.927H16.6478V179.359ZM16.6478 148.113H21.123C22.6138 148.113 23.7081 147.794 24.3999 147.152C25.1989 146.404 25.5983 145.069 25.5983 143.146V137.056C25.5983 135.188 25.1989 133.85 24.3999 133.05C23.7052 132.409 22.6138 132.089 21.123 132.089H16.6478V148.113Z" fill="white"/>
-                        <path d="M65.7309 123.275V179.359H56.9367V155.003H47.9832V179.359H39.189V123.275H47.9832V146.189H56.9367V123.275H65.7309Z" fill="white"/>
-                        <path d="M84.6743 180C80.8359 180 77.7443 178.906 75.4024 176.716C72.7364 174.151 71.4048 170.655 71.4048 166.219V136.415C71.4048 131.982 72.7364 128.483 75.4024 125.918C77.7472 123.728 80.8388 122.634 84.6743 122.634C88.5099 122.634 91.6015 123.728 93.9462 125.918C96.6094 128.483 97.9438 131.982 97.9438 136.415V166.219C97.9438 170.652 96.6123 174.151 93.9462 176.716C91.6015 178.906 88.5128 180 84.6743 180ZM84.6743 131.448C83.1806 131.448 82.0893 131.767 81.3975 132.408C80.5985 133.157 80.199 134.492 80.199 136.415V166.219C80.199 168.143 80.5985 169.477 81.3975 170.226C82.0893 170.867 83.1835 171.186 84.6743 171.186C86.2201 171.186 87.3114 170.867 87.9512 170.226C88.7501 169.532 89.1496 168.195 89.1496 166.219V136.415C89.1496 134.439 88.7501 133.105 87.9512 132.408C87.3114 131.77 86.2201 131.448 84.6743 131.448Z" fill="white"/>
-                        <path d="M130.64 179.359H125.525L112.096 150.918V179.359H103.302V123.275H108.417L121.846 151.638V123.275H130.64V179.359Z" fill="white"/>
-                        <path d="M145.508 179.359H136.713V123.275H145.508V179.359Z" fill="white"/>
-                        <path d="M171.647 179.359L165.412 162.776L159.258 179.359H149.905L160.297 151.397L149.905 123.275H159.258L165.412 139.859L171.566 123.275H181L170.527 151.397L181 179.359H171.647Z" fill="white"/>
-                        <path d="M7.85345 123.275H0L7.85345 128.904V123.275Z" fill="white"/>
-                        <path d="M7.85368 175.599L4.06445 179.397L7.85368 179.359V175.599Z" fill="white"/>
-                        <path d="M39.1892 175.599L35.4028 179.397L39.1892 179.359V175.599Z" fill="white"/>
-                        <path d="M103.302 175.593L99.5127 179.391L103.302 179.353V175.593Z" fill="white"/>
-                        <path d="M39.1892 127.035L35.4028 123.238L39.1892 123.275V127.035Z" fill="white"/>
-                        <path d="M65.731 175.599L69.5202 179.397L65.731 179.359V175.599Z" fill="white"/>
-                        <path d="M65.731 127.073L69.5202 123.275L65.731 123.316V127.073Z" fill="white"/>
-                        <path d="M130.64 127.033L134.426 123.235L130.64 123.273V127.033Z" fill="white"/>
-                        <path d="M73.9518 84.8721V93.686H59.562V84.8721H73.9518Z" fill="white"/>
-                        <path d="M90.5015 118.683C86.663 118.683 83.5714 117.589 81.2296 115.399C78.5635 112.834 77.2319 109.338 77.2319 104.902V75.0979C77.2319 70.6649 78.5635 67.166 81.2296 64.6013C83.5743 62.4109 86.6659 61.3172 90.5015 61.3172C94.3399 61.3172 97.4286 62.4109 99.7734 64.6013C102.437 67.166 103.771 70.6649 103.771 75.0979V104.902C103.771 109.335 102.439 112.834 99.7734 115.399C97.4286 117.589 94.337 118.683 90.5015 118.683ZM90.5015 70.131C89.0078 70.131 87.9165 70.4502 87.2246 71.0913C86.4257 71.8399 86.0262 73.1744 86.0262 75.0979V104.902C86.0262 106.826 86.4257 108.16 87.2246 108.909C87.9165 109.55 89.0107 109.869 90.5015 109.869C92.0473 109.869 93.1386 109.55 93.7783 108.909C94.5773 108.215 94.9768 106.878 94.9768 104.902V75.0979C94.9768 73.1222 94.5773 71.7876 93.7783 71.0913C93.1386 70.4502 92.0444 70.131 90.5015 70.131Z" fill="white"/>
-                        <path d="M121.438 84.8721V93.686H107.048V84.8721H121.438Z" fill="white"/>
-                        <path d="M59.5622 84.8721L53.9521 93.686H59.5622V84.8721Z" fill="white"/>
-                        <path d="M121.438 93.686L127.045 84.8721H121.438V93.686Z" fill="white"/>
-                        <path d="M59.415 56.7245H50.4615L45.9052 34.2111H41.9075V56.7245H33.1133V0.641174H46.3828C50.1662 0.641174 53.2578 1.76394 55.6547 4.00658C58.3179 6.46391 59.6523 9.93376 59.6523 14.4219V20.4304C59.6523 24.9708 58.3208 28.4696 55.6547 30.9269C55.2813 31.3012 54.8557 31.6493 54.3752 31.9685L59.415 56.7245ZM50.861 14.4219C50.861 12.5536 50.4615 11.2161 49.6626 10.4154C48.9707 9.77419 47.8765 9.45506 46.3857 9.45506H41.9104V25.4001H46.3857C47.8765 25.4001 48.9707 25.0781 49.6626 24.4398C50.4615 23.6913 50.861 22.3568 50.861 20.4333V14.4219Z" fill="white"/>
-                        <path d="M77.3999 57.3628C73.5615 57.3628 70.4699 56.269 68.128 54.0786C65.462 51.514 64.1304 48.018 64.1304 43.582V13.7808C64.1304 9.34771 65.462 5.84885 68.128 3.28417C70.4699 1.09376 73.5615 0 77.3999 0C81.2383 0 84.327 1.09376 86.6718 3.28417C89.335 5.84885 90.6694 9.34771 90.6694 13.7808V43.5849C90.6694 48.018 89.3379 51.5169 86.6718 54.0815C84.327 56.269 81.2354 57.3628 77.3999 57.3628ZM77.3999 8.81389C75.9062 8.81389 74.8149 9.13302 74.123 9.77419C73.3241 10.5227 72.9246 11.8573 72.9246 13.7808V43.5849C72.9246 45.5084 73.3241 46.843 74.123 47.5915C74.8149 48.2327 75.9091 48.5518 77.3999 48.5518C78.9457 48.5518 80.037 48.2327 80.6768 47.5915C81.4757 46.8981 81.8752 45.5607 81.8752 43.5849V13.7808C81.8752 11.805 81.4757 10.4705 80.6768 9.77419C80.037 9.13302 78.9457 8.81389 77.3999 8.81389Z" fill="white"/>
-                        <path d="M109.057 57.3628C105.326 57.3628 102.234 56.269 99.7852 54.0786C97.1192 51.4095 95.7876 47.9106 95.7876 43.582V13.7808C95.7876 9.45506 97.1192 5.95619 99.7852 3.28417C102.234 1.09376 105.326 0 109.057 0C112.896 0 115.984 1.09376 118.329 3.28417C120.992 5.84885 122.327 9.34771 122.327 13.7808V18.7476H113.532V13.7808C113.532 11.805 113.159 10.4705 112.412 9.77419C111.72 9.13302 110.6 8.81389 109.054 8.81389C107.561 8.81389 106.469 9.13302 105.777 9.77419C104.978 10.5227 104.579 11.8573 104.579 13.7808V43.5849C104.579 45.5084 104.978 46.843 105.777 47.5915C106.469 48.2327 107.563 48.5518 109.054 48.5518C110.6 48.5518 111.717 48.2327 112.412 47.5915C113.159 46.8981 113.532 45.5607 113.532 43.5849V36.3754H122.327V43.5849C122.327 48.018 120.995 51.5169 118.329 54.0815C115.984 56.269 112.893 57.3628 109.057 57.3628Z" fill="white"/>
-                        <path d="M155.74 56.7245H146.306L139.512 38.7776L136.476 45.7463V56.7216H127.682V0.641174H136.476V23.3954L146.228 0.641174H155.74L144.468 27.2395L155.74 56.7245Z" fill="white"/>
-                        <path d="M33.1132 0.641174H25.2598L33.1132 6.26663V0.641174Z" fill="white"/>
-                        <path d="M113.532 36.3725H111.095L113.532 39.8192V36.3725Z" fill="white"/>
-                        <path d="M127.682 4.39824L123.893 0.603455L127.682 0.64117V4.39824Z" fill="white"/>
-                        <path d="M50.1546 55.2072L49.0083 56.7245H50.4615L50.1546 55.2072Z" fill="white"/>
-                        <path d="M33.113 52.9646L29.3267 56.7622L33.113 56.7245V52.9646Z" fill="white"/>
-                        <path d="M127.682 52.9646L123.893 56.7622L127.682 56.7245V52.9646Z" fill="white"/>
-                        
-                        </g>
-                    </svg></div>
-                    <div class="align12 " >
+                    <div><svg height="300" width="250" viewBox="0 0 220 200" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g class="rock ">
+                                <path
+                                    d="M16.6478 179.359H7.85352V123.275H21.123C24.9065 123.275 27.9981 124.398 30.3949 126.641C33.0581 129.098 34.3926 132.568 34.3926 137.056V143.146C34.3926 147.686 33.061 151.185 30.3949 153.642C28.0502 155.833 24.9586 156.927 21.123 156.927H16.6478V179.359ZM16.6478 148.113H21.123C22.6138 148.113 23.7081 147.794 24.3999 147.152C25.1989 146.404 25.5983 145.069 25.5983 143.146V137.056C25.5983 135.188 25.1989 133.85 24.3999 133.05C23.7052 132.409 22.6138 132.089 21.123 132.089H16.6478V148.113Z"
+                                    fill="white" />
+                                <path
+                                    d="M65.7309 123.275V179.359H56.9367V155.003H47.9832V179.359H39.189V123.275H47.9832V146.189H56.9367V123.275H65.7309Z"
+                                    fill="white" />
+                                <path
+                                    d="M84.6743 180C80.8359 180 77.7443 178.906 75.4024 176.716C72.7364 174.151 71.4048 170.655 71.4048 166.219V136.415C71.4048 131.982 72.7364 128.483 75.4024 125.918C77.7472 123.728 80.8388 122.634 84.6743 122.634C88.5099 122.634 91.6015 123.728 93.9462 125.918C96.6094 128.483 97.9438 131.982 97.9438 136.415V166.219C97.9438 170.652 96.6123 174.151 93.9462 176.716C91.6015 178.906 88.5128 180 84.6743 180ZM84.6743 131.448C83.1806 131.448 82.0893 131.767 81.3975 132.408C80.5985 133.157 80.199 134.492 80.199 136.415V166.219C80.199 168.143 80.5985 169.477 81.3975 170.226C82.0893 170.867 83.1835 171.186 84.6743 171.186C86.2201 171.186 87.3114 170.867 87.9512 170.226C88.7501 169.532 89.1496 168.195 89.1496 166.219V136.415C89.1496 134.439 88.7501 133.105 87.9512 132.408C87.3114 131.77 86.2201 131.448 84.6743 131.448Z"
+                                    fill="white" />
+                                <path
+                                    d="M130.64 179.359H125.525L112.096 150.918V179.359H103.302V123.275H108.417L121.846 151.638V123.275H130.64V179.359Z"
+                                    fill="white" />
+                                <path d="M145.508 179.359H136.713V123.275H145.508V179.359Z" fill="white" />
+                                <path
+                                    d="M171.647 179.359L165.412 162.776L159.258 179.359H149.905L160.297 151.397L149.905 123.275H159.258L165.412 139.859L171.566 123.275H181L170.527 151.397L181 179.359H171.647Z"
+                                    fill="white" />
+                                <path d="M7.85345 123.275H0L7.85345 128.904V123.275Z" fill="white" />
+                                <path d="M7.85368 175.599L4.06445 179.397L7.85368 179.359V175.599Z" fill="white" />
+                                <path d="M39.1892 175.599L35.4028 179.397L39.1892 179.359V175.599Z" fill="white" />
+                                <path d="M103.302 175.593L99.5127 179.391L103.302 179.353V175.593Z" fill="white" />
+                                <path d="M39.1892 127.035L35.4028 123.238L39.1892 123.275V127.035Z" fill="white" />
+                                <path d="M65.731 175.599L69.5202 179.397L65.731 179.359V175.599Z" fill="white" />
+                                <path d="M65.731 127.073L69.5202 123.275L65.731 123.316V127.073Z" fill="white" />
+                                <path d="M130.64 127.033L134.426 123.235L130.64 123.273V127.033Z" fill="white" />
+                                <path d="M73.9518 84.8721V93.686H59.562V84.8721H73.9518Z" fill="white" />
+                                <path
+                                    d="M90.5015 118.683C86.663 118.683 83.5714 117.589 81.2296 115.399C78.5635 112.834 77.2319 109.338 77.2319 104.902V75.0979C77.2319 70.6649 78.5635 67.166 81.2296 64.6013C83.5743 62.4109 86.6659 61.3172 90.5015 61.3172C94.3399 61.3172 97.4286 62.4109 99.7734 64.6013C102.437 67.166 103.771 70.6649 103.771 75.0979V104.902C103.771 109.335 102.439 112.834 99.7734 115.399C97.4286 117.589 94.337 118.683 90.5015 118.683ZM90.5015 70.131C89.0078 70.131 87.9165 70.4502 87.2246 71.0913C86.4257 71.8399 86.0262 73.1744 86.0262 75.0979V104.902C86.0262 106.826 86.4257 108.16 87.2246 108.909C87.9165 109.55 89.0107 109.869 90.5015 109.869C92.0473 109.869 93.1386 109.55 93.7783 108.909C94.5773 108.215 94.9768 106.878 94.9768 104.902V75.0979C94.9768 73.1222 94.5773 71.7876 93.7783 71.0913C93.1386 70.4502 92.0444 70.131 90.5015 70.131Z"
+                                    fill="white" />
+                                <path d="M121.438 84.8721V93.686H107.048V84.8721H121.438Z" fill="white" />
+                                <path d="M59.5622 84.8721L53.9521 93.686H59.5622V84.8721Z" fill="white" />
+                                <path d="M121.438 93.686L127.045 84.8721H121.438V93.686Z" fill="white" />
+                                <path
+                                    d="M59.415 56.7245H50.4615L45.9052 34.2111H41.9075V56.7245H33.1133V0.641174H46.3828C50.1662 0.641174 53.2578 1.76394 55.6547 4.00658C58.3179 6.46391 59.6523 9.93376 59.6523 14.4219V20.4304C59.6523 24.9708 58.3208 28.4696 55.6547 30.9269C55.2813 31.3012 54.8557 31.6493 54.3752 31.9685L59.415 56.7245ZM50.861 14.4219C50.861 12.5536 50.4615 11.2161 49.6626 10.4154C48.9707 9.77419 47.8765 9.45506 46.3857 9.45506H41.9104V25.4001H46.3857C47.8765 25.4001 48.9707 25.0781 49.6626 24.4398C50.4615 23.6913 50.861 22.3568 50.861 20.4333V14.4219Z"
+                                    fill="white" />
+                                <path
+                                    d="M77.3999 57.3628C73.5615 57.3628 70.4699 56.269 68.128 54.0786C65.462 51.514 64.1304 48.018 64.1304 43.582V13.7808C64.1304 9.34771 65.462 5.84885 68.128 3.28417C70.4699 1.09376 73.5615 0 77.3999 0C81.2383 0 84.327 1.09376 86.6718 3.28417C89.335 5.84885 90.6694 9.34771 90.6694 13.7808V43.5849C90.6694 48.018 89.3379 51.5169 86.6718 54.0815C84.327 56.269 81.2354 57.3628 77.3999 57.3628ZM77.3999 8.81389C75.9062 8.81389 74.8149 9.13302 74.123 9.77419C73.3241 10.5227 72.9246 11.8573 72.9246 13.7808V43.5849C72.9246 45.5084 73.3241 46.843 74.123 47.5915C74.8149 48.2327 75.9091 48.5518 77.3999 48.5518C78.9457 48.5518 80.037 48.2327 80.6768 47.5915C81.4757 46.8981 81.8752 45.5607 81.8752 43.5849V13.7808C81.8752 11.805 81.4757 10.4705 80.6768 9.77419C80.037 9.13302 78.9457 8.81389 77.3999 8.81389Z"
+                                    fill="white" />
+                                <path
+                                    d="M109.057 57.3628C105.326 57.3628 102.234 56.269 99.7852 54.0786C97.1192 51.4095 95.7876 47.9106 95.7876 43.582V13.7808C95.7876 9.45506 97.1192 5.95619 99.7852 3.28417C102.234 1.09376 105.326 0 109.057 0C112.896 0 115.984 1.09376 118.329 3.28417C120.992 5.84885 122.327 9.34771 122.327 13.7808V18.7476H113.532V13.7808C113.532 11.805 113.159 10.4705 112.412 9.77419C111.72 9.13302 110.6 8.81389 109.054 8.81389C107.561 8.81389 106.469 9.13302 105.777 9.77419C104.978 10.5227 104.579 11.8573 104.579 13.7808V43.5849C104.579 45.5084 104.978 46.843 105.777 47.5915C106.469 48.2327 107.563 48.5518 109.054 48.5518C110.6 48.5518 111.717 48.2327 112.412 47.5915C113.159 46.8981 113.532 45.5607 113.532 43.5849V36.3754H122.327V43.5849C122.327 48.018 120.995 51.5169 118.329 54.0815C115.984 56.269 112.893 57.3628 109.057 57.3628Z"
+                                    fill="white" />
+                                <path
+                                    d="M155.74 56.7245H146.306L139.512 38.7776L136.476 45.7463V56.7216H127.682V0.641174H136.476V23.3954L146.228 0.641174H155.74L144.468 27.2395L155.74 56.7245Z"
+                                    fill="white" />
+                                <path d="M33.1132 0.641174H25.2598L33.1132 6.26663V0.641174Z" fill="white" />
+                                <path d="M113.532 36.3725H111.095L113.532 39.8192V36.3725Z" fill="white" />
+                                <path d="M127.682 4.39824L123.893 0.603455L127.682 0.64117V4.39824Z" fill="white" />
+                                <path d="M50.1546 55.2072L49.0083 56.7245H50.4615L50.1546 55.2072Z" fill="white" />
+                                <path d="M33.113 52.9646L29.3267 56.7622L33.113 56.7245V52.9646Z" fill="white" />
+                                <path d="M127.682 52.9646L123.893 56.7622L127.682 56.7245V52.9646Z" fill="white" />
+
+                            </g>
+                        </svg></div>
+                    <div class="align12 ">
                         <button class="button-1"> <a href="#" class="register-button">Register Now!</a> </button>
                     </div>
                 </div>
-                
+
 
             </div>
         </div>
@@ -20540,8 +20570,9 @@
     <div id="about_us">
         <div id="about_us_wide">
             <div id="about-heading">
-                <h1 id = "about-main-heading">About Us</h1>
-                <p id="about-details" style="z-index: 1;">Alcheringa is the annual cultural festival of the Indian Institute of
+                <h1 id="about-main-heading">About Us</h1>
+                <p id="about-details" style="z-index: 1;">Alcheringa is the annual cultural festival of the Indian
+                    Institute of
                     Technology, Guwahati. A splendid
                     idea realised by a group of students in 1996 at IITG marked dawn of one of Asia’s most exhilarating
                     and
@@ -20565,7 +20596,8 @@
             <div id="about-heading">
                 <h1 style="border-left: 8px solid #711011; padding-left: 4%">About Us</h1>
             </div>
-            <div style="position: relative; background-image: url('images/Vector.png'); background-repeat: no-repeat; background-position: 0% 100%; background-size: 27%;">
+            <div
+                style="position: relative; background-image: url('images/Vector.png'); background-repeat: no-repeat; background-position: 0% 100%; background-size: 27%;">
                 <img src="images/image 24.png" type="img/png"
                     style="margin: 2vw 0px 0px 13vw; width: 38%; height: 26%;">
                 <img src="images/image 2.png" type="img/png"
@@ -20578,12 +20610,82 @@
                 significant cultural college fests as we know it today.
             </div>
 
-            <div style="position: relative;margin-top:2% ;background-image: url('images/Frame.png'); background-repeat: no-repeat; background-position: 98% 0%; background-size: 29%;">
+            <div
+                style="position: relative;margin-top:2% ;background-image: url('images/Frame.png'); background-repeat: no-repeat; background-position: 98% 0%; background-size: 29%;">
                 <img src="images/image 26.png" type="img/png"
                     style="margin: 2vw 0px 0px 13vw; width: 28%; height: 42%;">
                 <img src="images/image 1.png" type="img/png"
                     style="margin: 2vw 0px 0px 13vw; width: 52%; height: 34%; margin-top: -24%; margin-left: 37%;">
             </div>
+        </div>
+    </div>
+
+
+    <div id="contact_us">
+        <div id="contact_us_wide">
+            <div id="contact-main">
+                <div id="contact-heading">
+                    <h1 id="contact-main-heading">Contact Us</h1>
+                </div>
+                <div id="contact-images">
+                    <img src="images/billy.png" style="margin-right: 3vw; width: 14vw; height: 18vw;">
+                    <img src="images/joseph.png" style="margin-right: 15vw; width: 14vw; height: 18vw;">
+                    <img src="images/alcherlogo.png" style="width: 16vw; height: 19vw">
+                </div>
+            </div>
+            <footer id="footer">
+                <i class="bi bi-globe2" style="font-size: 2vw;"></i>
+                <a href="https://alcheringa.in" target="_blank"
+                    style="color: #C6B394; padding-left: 1%; padding-right: 5%;">alcheringa.in</a>
+                <i class="bi bi-envelope"  style="font-size: 2vw;"></i>
+                <p style="color: #C6B394; padding-left: 1%; padding-top: 1.3vw; padding-right: 5%;">
+                    alcheringa@gmail.com
+                </p>
+                <i class="bi bi-telephone"  style="font-size: 2vw;"></i>
+                <p style="color: #C6B394; padding-left: 1%; padding-top: 1.3vw; padding-right: 15%;">19-00-00-0000
+                </p>
+                <div id="footer-icons">
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-facebook" style="margin-left: 3.5vw;"></i>
+                    <i class="bi bi-instagram" style="margin-left: 3.5vw;"></i>
+                    <i class="bi bi-twitter" style="margin-left: 3.5vw;"></i>
+                </div>
+            </footer>
+        </div>
+        <div id="contact-us-mobile" class="contact-us-mobile">
+            <div id="contact-heading">
+                <h1 style="border-left: 8px solid #711011; padding-left: 4%">Contact Us</h1>
+            </div>
+            <div id="mobile-img-contact" class="mobile-img-contact">
+                <div style="display:flex; flex-direction: row; justify-content: center; margin-bottom: 20vw;">
+                    <img src="images/billy2.png" style="width: 30vw; height:38vw; margin-right: 6vw;">
+                    <img src="images/joseph.png" style="width: 30vw; height:38vw">
+                </div>
+                <div style="display:flex; flex-direction: row; justify-content: center; padding-bottom: vw;">
+                    <img src="images/alcherlogo.png" style="width: 42vw; height: 51vw">
+                </div>
+            </div>
+            <footer id="mobile-footer">
+                <div style="display: flex; flex-flow: row;">
+                    <i class="bi bi-telephone" style="margin-right: 5%;"></i>
+                    <div style="color: #C6B394; margin-right: 15vw">1900000000</div>
+                    <i class="bi bi-search" style="margin-right: 5%;"></i>
+                    <a href="#" target="_blank" style="color: #C6B394">alcheringa.in</a>
+                </div>
+                <div style="display: flex; flex-flow: row; padding-top: 2%; padding-bottom: 5vw;"> 
+                    <i class="bi bi-envelope" style="margin-right: 4%; font-size: 5vw"></i>
+                    <p style="color: #C6B394; padding-left: 1%; padding-top: 1.3vw; padding-right: 5%;">
+                        alcheringa@gmail.com
+                    </p>
+                </div>
+                <div>Social Media</div>
+                <div style="font-size: 5vw; margin-top: 2%">
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-facebook" style="margin-left: 3.5vw;"></i>
+                    <i class="bi bi-instagram" style="margin-left: 3.5vw;"></i>
+                    <i class="bi bi-twitter" style="margin-left: 3.5vw;"></i>
+                </div>
+            </footer>
         </div>
     </div>
     <script src="nav.js"></script>

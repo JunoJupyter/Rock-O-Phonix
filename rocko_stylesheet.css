@@ -1,179 +1,196 @@
-html , body{
+html,
+body {
     margin: 0px;
 }
-.skull{
+
+.skull {
     position: absolute;
-     left: 3.6vw;
-    top:3vh;
+    left: 3.6vw;
+    top: 3vh;
 
 }
-.alcher_logo{
+
+.alcher_logo {
     position: absolute;
 
     right: 3.6vw;
-    top:3.2vh;
+    top: 3.2vh;
 }
-.top_part{
+
+.top_part {
     position: relative;
     height: 100vh;
- 
-    background-image:url("images/image 9.svg")  ;
+
+    background-image: url("images/image 9.svg");
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     /* overflow-y: hidden; */
     overflow-x: hidden;
 }
-@media (max-width: 650px){
-    
-    .top_part{
-    background-image:url("images/background-mob.png")  ;
-  overflow-y: hidden;
-background-size: 101vw;
+@media (max-width: 650px) {
 
-height: 130vh;
-background-color: #0E0E0E;
+    .top_part {
+        background-image: url("images/background-mob.png");
+        overflow-y: hidden;
+        background-size: 101vw;
+
+        height: 130vh;
+        background-color: #0E0E0E;
 
     }
 
-.event_name{
-    display: flex;
-   justify-content: center;
-   align-items: baseline;
-    /* padding-bottom: 20%; */
+    .event_name {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        /* padding-bottom: 20%; */
 
-    /* padding-top: 80vh; */
-    
-   
-    box-sizing: border-box;
-   }
+        /* padding-top: 80vh; */
+
+
+        box-sizing: border-box;
+    }
 
 }
-.ROCKO-MOBILE{
-      margin-top: -8vh;
+
+.ROCKO-MOBILE {
+    margin-top: -8vh;
     background-color: #0E0E0E;
     scroll-behavior: auto;
-    
+
 }
+
 /* .margin-rocko{
 margin-top: -2.5vh;
 
 } */
-.align1{
+.align1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 80vh;
     background-color: #0E0E0E;
     background-image: url('images/left-skull.png');
-    background-position-x:right ;
-background-position-y:top;
+    background-position-x: right;
+    background-position-y: top;
     background-repeat: no-repeat;
- 
+
     background-size: 160px;
-    /* justify-content: space-evenly; */
+
     margin-top: -2.5vh;
-    
+
 }
-.align12{
+
+.align12 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 7vh;
 }
-.links2{
+
+.links2 {
     height: 13vh;
     font-size: 1.5vw;
-padding-left: 10vw;
-padding-right: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     align-items: center;
-display: flex;
-width:100vw;
-justify-content: space-evenly;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
     box-sizing: border-box;
     position: fixed;
 }
-.nav_bar_text{
+
+.nav_bar_text {
     color: rgba(198, 179, 148, 1);
-    font-family: Poppins , sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 1.5vw;
-   
+
 
 }
-.height{
+
+.height {
     width: 100vw;
     height: 100vh;
 }
 
-.event_name{
- display: flex;
-justify-content: center;
-align-items: baseline;
- /* padding-bottom: 20%; */
- height: 100vh;
- width: 100vw;
- padding-top: 73vh;
- padding-left: 2vw;
- padding-right: 2vw;
- box-sizing: border-box;
-}
-.event_name svg {
-    width: 100vw; 
+.event_name {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* padding-bottom: 20%; */
+    height: 100vh;
+    width: 100vw;
+    padding-top: 73vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-sizing: border-box;
 }
 
-.register-button{
+.event_name svg {
+    width: 100vw;
+}
+
+.register-button {
     justify-content: center;
     color: rgba(198, 179, 148, 1);
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
 
 
 }
-.button-1{
+
+.button-1 {
     width: 35vw;
     height: 40px;
     background-color: #0E0E0E;
-    border:2px solid #C6B394;
+    border: 2px solid #C6B394;
 }
-.piano{
+
+.piano {
     position: relative;
 
 }
 
-@media (max-width: 800px){
-    .nav_bar_grid{
+@media (max-width: 800px) {
+    .nav_bar_grid {
         font-size: 1.85vw;
     }
 
 }
-@media (max-width: 1000px){
-    .nav_bar_grid{
+
+@media (max-width: 1000px) {
+    .nav_bar_grid {
         font-size: 1.7vw;
     }
 }
-@media (max-width: 700px){
-    .nav_bar_grid{
+
+@media (max-width: 700px) {
+    .nav_bar_grid {
         font-size: 2vw;
     }
- 
+
 }
-@media (max-width: 700px){
-    .skull{
-     
-         left: 1.5vw;
- 
-    
+
+@media (max-width: 700px) {
+    .skull {
+
+        left: 1.5vw;
+
+
     }
-    .alcher_logo{
-     
-    
+
+    .alcher_logo {
+
+
         right: 1.5vw;
-      
+
     }
- 
+
 }
 
 /* about_us */
@@ -182,6 +199,7 @@ line-height: 24px;
     font-family: 'Poppins';
     background-color: #0E0E0E;
     color: #C6B394;
+    padding-bottom: 4vw;
 }
 
 #about_us_wide {
@@ -204,13 +222,13 @@ line-height: 24px;
 }
 
 #about-main-heading {
-    border-left: 0.8vw solid #711011; 
-    padding-left: 2.8%; 
+    border-left: 0.8vw solid #711011;
+    padding-left: 2.8%;
     margin-bottom: 5%;
 }
 
 #about-details {
-    text-align: center; 
+    text-align: center;
     font-size: 1.5vw;
 }
 
@@ -242,11 +260,120 @@ line-height: 24px;
         background-repeat: no-repeat;
         background-size: 20%;
         background-position: 99% 6%;
+        padding-bottom: 8vw;
     }
 
     #about-heading {
         background-image: none;
         background-repeat: no-repeat;
         background-position: 90% 130%;
+    }
+}
+
+#contact_us {
+    font-family: 'Poppins';
+    background-color: #0E0E0E;
+    color: #C6B394;
+}
+
+#contact_us_wide {
+    display: block;
+}
+
+#contact-main {
+    background-image: url('images/left-skull1.svg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+}
+
+#contact-heading {
+    font-size: 1.7vw;
+    padding: 7vw 12vw 5vw 12vw;
+    width: auto;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: contain;
+}
+
+#contact-main-heading {
+    border-left: 0.5vw solid #711011;
+    padding-left: 2.8%;
+    margin-bottom: 5%;
+}
+
+#contact-images {
+    display: flex;
+    flex-flow: row;
+    padding-left: 30vw;
+    padding-bottom: 8vw;
+    background-image: url('images/drums.png');
+    background-repeat: no-repeat;
+    background-size: 25vw;
+    background-position: 0vw 6vw;
+}
+
+#footer {
+    height: 6vw;
+    font-size: 1.3vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #711011;
+    color: #C6B394;
+    align-items: center;
+    padding-left: 8%;
+}
+
+#footer-icons {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contact-us-mobile {
+    display: none;
+}
+
+@media (max-width: 580px) {
+
+    #contact-heading {
+        font-size: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    #contact_us_wide {
+        display: none;
+    }
+
+    #contact-us-mobile {
+        display: block;
+        padding-top: 7vw;
+    }
+
+    #mobile-img-contact {
+        padding-top: 15vw;
+        background-image: url('images/left-skull1.svg'), url('images/right-skull.png');
+        background-repeat: no-repeat;
+        background-size: 40% 40%;
+        background-position: 100% 0% , 0% 0%;
+        padding-bottom: 20vw;
+    }
+
+    #mobile-footer{
+        font-size: 3.3vw;
+        background-color: #711011;
+        width: 100%;
+        height: 46vw;
+        padding-top: 7%;
+        padding-bottom: 2%;
+        height: auto;
+        color: #C6B394;
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
     }
 }
