@@ -250,3 +250,111 @@ line-height: 24px;
         background-position: 90% 130%;
     }
 }
+
+#contact_us {
+    font-family: 'Poppins';
+    background-color: #0E0E0E;
+    color: #C6B394;
+}
+
+#contact_us_wide {
+    display: block;
+}
+
+#contact-main {
+    background-image: url('images/left-skull1.svg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+}
+
+#contact-heading {
+    font-size: 1.7vw;
+    padding: 7vw 12vw 5vw 12vw;
+    width: auto;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: contain;
+}
+
+#contact-main-heading {
+    border-left: 0.5vw solid #711011;
+    padding-left: 2.8%;
+    margin-bottom: 5%;
+}
+
+#contact-images {
+    display: flex;
+    flex-flow: row;
+    padding-left: 30vw;
+    padding-bottom: 8vw;
+    background-image: url('images/drums.png');
+    background-repeat: no-repeat;
+    background-size: 25vw;
+    background-position: 0vw 6vw;
+}
+
+#footer {
+    height: 6vw;
+    font-size: 1.3vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #711011;
+    color: #C6B394;
+    align-items: center;
+    padding-left: 8%;
+}
+
+#footer-icons {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contact-us-mobile {
+    display: none;
+}
+
+@media (max-width: 580px) {
+
+    #contact-heading {
+        font-size: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    #contact_us_wide {
+        display: none;
+    }
+
+    #contact-us-mobile {
+        display: block;
+        padding-top: 7vw;
+    }
+
+    #mobile-img-contact {
+        padding-top: 15vw;
+        background-image: url('images/left-skull1.svg'), url('images/right-skull.png');
+        background-repeat: no-repeat;
+        background-size: 40% 40%;
+        background-position: 100% 0% , 0% 0%;
+        padding-bottom: 20vw;
+    }
+
+    #mobile-footer{
+        font-size: 3.3vw;
+        background-color: #711011;
+        width: 100%;
+        height: 46vw;
+        padding-top: 7%;
+        padding-bottom: 2%;
+        height: auto;
+        color: #C6B394;
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
+    }
+}
