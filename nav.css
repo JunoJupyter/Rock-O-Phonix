@@ -108,6 +108,7 @@ align-items: right;
 justify-content: space-between;
 padding: 1rem;
 padding-right: 0px;
+padding-bottom: 0px;
 }
 .nav-toggle {
     font-size: 3vw;
@@ -133,7 +134,7 @@ letter-spacing: var(--spacing);
 display: flex;
 justify-content: right;
 /* text-align: justify; */
-padding: 0.5rem 1.5rem;
+padding: 0.3rem 2rem;
 transition: var(--transition);
 background: var(transparent);
 
