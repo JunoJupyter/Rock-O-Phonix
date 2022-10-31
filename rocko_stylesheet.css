@@ -123,6 +123,14 @@ margin-top: -26vh;
      
 
 }
+.svg-img {
+    padding-top: 15vw;
+    background-image: url('images/left-skull1.svg'), url('images/right-skull.png');
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    background-position: 100% 0% , 0% 100%;
+    padding-bottom: 20vw;
+}
 .ROCKO{
     display: flex;
    justify-content: center;
