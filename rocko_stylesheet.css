@@ -150,10 +150,6 @@ height: 90vh;
     padding-left: 8vw;
 
 }
-.ROCKO-MOBILE svg {
-    width: 100vw; 
-    padding-left: 8vw;
-
 .register-button{
     justify-content: center;
     color: rgba(198, 179, 148, 1);
@@ -165,6 +161,11 @@ line-height: 24px;
 
 
 }
+.ROCKO-MOBILE svg {
+    width: 100vw; 
+    padding-left: 8vw;
+}
+
 .button-1{
     width: 40vw;
     /* height: 6vh; */
@@ -426,6 +427,4 @@ background-color: #0E0E0E;
         justify-items: center;
         align-items: center;
     }
-}
-}
 }
