@@ -25,35 +25,21 @@ html , body{
     position: absolute;
     height: 5vh;
     width: 2vw;
-    right: 5vw;
+    right: 6.5vw;
     top:4.2vh;
 }
 .top_part{
     position: relative;
-    height: 100vh;
- 
-    background-image:url("images/image 9.png")  ;
-    background-size: cover;
-    background-repeat: no-repeat;
+width: 100vw; 
+    
     align-items: center;
-    /* overflow-y: hidden; */
+  
     overflow-x: hidden;
 }
 
-.ROCKO-MOBILE{
-      margin-top: -18vh;
-    background-color: #0E0E0E;
-    scroll-behavior: auto;
-    display: flex;
-    align-items: center;
-}
 
-.align12{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 7vh;
-}
+
+
 .links2{
     height: 13vh;
     font-size: 1.5vw;
@@ -73,25 +59,93 @@ justify-content: space-evenly;
    
 
 }
+.event_name{
+    align-items: center;
+    display: flex;
+    width:100vw;
+}
 .height{
     width: 100vw;
     height: 100vh;
 }
-
-.event_name{
- display: flex;
-justify-content: center;
-align-items: baseline;
- /* padding-bottom: 20%; */
- height: 100vh;
- width: 100vw;
- padding-top: 77vh;
- padding-left: 2vw;
- padding-right: 2vw;
- box-sizing: border-box;
+.align12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
 }
-.event_name svg {
+.svg-button{
+    display: flex;
+   align-items: center;
+flex-direction: column;
+justify-content: space-evenly;   
+width: 100vw;
+    height: 120vh;
+margin-top: -26vh;
+    
+}
+@media (min-height:355px) {
+    .svg-button{
+    height: 100vh;
+
+    }
+    
+}
+
+@media (min-height:450px) {
+    .svg-button{
+    height: 83vh;
+
+    }
+}
+@media (min-height:630px) {
+    .svg-button{
+    height: 58vh;
+
+    }
+}
+@media (min-height:700px) {
+    .svg-button{
+    height: 52vh;
+
+    }
+}
+.ROCKO-MOBILE{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+     flex-direction: column;
+     width: 100vw;
+     padding-top: 70vh;
+     box-sizing: border-box;
+     
+
+}
+.ROCKO{
+    display: flex;
+   justify-content: center;
+   align-items: baseline;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 77vh;
+    background-image:url("images/image 9.png")  ;
+    background-size: 100vw 100vh;
+
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+   }
+
+.div1{
+height: 90vh;
+}
+.ROCKO svg {
     width: 100vw; 
+
+}
+.ROCKO-MOBILE svg {
+    width: 100vw; 
+    padding-left: 8vw;
 
 }
 
@@ -107,8 +161,9 @@ line-height: 24px;
 
 }
 .button-1{
-    width: 45vw;
-    height: 5vh;
+    width: 40vw;
+    /* height: 6vh; */
+    height: 50px;
     background-color: #0E0E0E;
     border:2px solid #C6B394;
 }
@@ -126,53 +181,15 @@ line-height: 24px;
     width: 125px;
     height: 200px;
 }
-@media (max-width: 650px){
-    
+@media (max-width: 650px) {
     .top_part{
-    background-image:url("images/background-mob.png")  ;
-  overflow-y: hidden;
-background-size: 90vw;
 
-height: 120vh;
+        background-image:url("images/background-mob.png")  ;
+        background-repeat: no-repeat;
+        background-size: 100vw 85vh;
 background-color: #0E0E0E;
 
     }
-.center-flex{
-   padding-left: 7vw;
-   padding-right: 7vw;
-   width: 100vw;
-}
-.event_name{
-    display: flex;
-   justify-content: center;
-   align-items: baseline;
-    /* padding-bottom: 20%; */
-    height: 100vh;
-    width: 100vw;
-    padding-top: 70vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    
-     box-sizing: border-box;
-   }
-
-   .align1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    justify-items: center;
-    background-color: #0E0E0E;
-    background-image: url('images/left-skull.png');
-    background-position-x:right ;
-background-position-y:bottom;
-    background-repeat: no-repeat;
- 
-    background-size: 160px;
-    /* justify-content: space-evenly; */
-    margin-top: -2.5vh;
-    
-}
 }
 @media (max-width: 800px){
     .nav_bar_grid{
@@ -213,7 +230,7 @@ background-position-y:bottom;
 
 }
 @media (min-width:1200px) {
-    .event_name{
+    .ROCKO{
         display: flex;
      
         padding-top: 84vh;
