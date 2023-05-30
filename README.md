@@ -14,6 +14,7 @@ Please note that the Rock-O-Phoenix Frontend requires a backend server for full 
 Make sure you have the backend server running and properly configured.
 
 ## Glimpses of the Project : 
+
 ![Desktop View](https://drive.google.com/file/d/18C5Qx-e5pHaexb45qt8dp-9BvXDQrIxG/view?usp=share_link)
 
 ![Mobile View](https://drive.google.com/file/d/1efooGj2k58FxYCv51REjhp13LbhwYM66/view?usp=share_link)
