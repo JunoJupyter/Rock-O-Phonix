@@ -13,7 +13,7 @@ To get started with the Rock-O-Phoenix Frontend, follow these steps:
 Please note that the Rock-O-Phoenix Frontend requires a backend server for full functionality.
 Make sure you have the backend server running and properly configured.
 
-## Glimpses of the Project : 
+## Glimpse of the Project : 
 
 ![Desktop View](images/DesktopView.jpeg)
 
